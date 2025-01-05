@@ -2,7 +2,7 @@
 
 class Person:
 
-    def __init__(self,name,last_name,birth_date,dead_date,gender,age = 0,mother = None, father = None,couple = None,parent = None):
+    def __init__(self,name,last_name,birth_date,dead_date="",gender="",age = 0,mother = None, father = None,couple = None,parent = None):
         # Personal Data
         self.name = name
         self.last_name = last_name
